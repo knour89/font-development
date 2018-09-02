@@ -1,0 +1,124 @@
+@media only screen and (max-width: 1023px) {
+    /*................*/
+    /*...Main Sets....*/
+    /*................*/
+    body {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .col {
+        width: 100%;
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+    /*................*/
+    /*...Header css....*/
+    /*................*/
+    header .logo {
+        margin-top: 15px;
+        margin-left: 2%;
+        height: 100px;
+    }
+
+    header .mobile-nav-icon {
+        display: block;
+        float: right;
+        margin-top: 35px;
+        margin-right: 15px;
+        color: #fff;
+        font-size: 210%;
+        cursor: pointer;
+    }
+
+    header .mobile-nav-icon:hover,
+    header .mobile-nav-icon:active {
+        border-bottom: none; 
+    }
+
+    header .main-nav {
+        display: none;
+        margin-top: 30px;
+        float: left;
+    }
+    header .main-nav li {
+        display: block;
+        margin-bottom: 20px;
+    }
+    header .hero-banner {
+        top: 45%;
+        left: 2%;
+    }
+    header h1 {
+        font-size: 180%;
+    }
+    /*...Header sticky css....*/
+    .sticky-nav .main-nav {
+        margin-top: 10px;
+    }
+    .sticky-nav .main-nav li a:link,
+    .sticky-nav .main-nav li a:visited {
+        font-size: 100%;
+    }
+
+    .sticky-nav .mobile-nav-icon {
+        color: #555;
+        margin-top: 20px;
+    }
+
+
+    /*................*/
+    /*...Feature css....*/
+    /*................*/
+    .features-section .feature-intro p {
+        font-size: 100%;
+        width: 100%;
+    }
+    .features-section .box h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /*................*/
+    /*...steps css....*/
+    /*................*/
+    .steps-section .app-screen {
+        width: 30%;
+    }
+    .steps-section .step-box:first-child {
+        text-align: center;
+        padding-right: 0;
+    }
+    .steps-section .step-box:last-child {
+        padding-top: 10px;
+    }
+    /*................*/
+    /*...contact css....*/
+    /*................*/
+    .contact-section .contact-form {
+        width: 90%;
+    }
+    /*................*/
+    /*...footer css....*/
+    /*................*/
+    footer {
+        font-size: 120%;
+    }
+    footer .footer-nav,
+    footer .social-nav {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    header h1 {
+        font-size: 120%;
+    }
+    
+    header .btn {
+        margin-bottom: 10px;
+    }
+}

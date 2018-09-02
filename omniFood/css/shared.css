@@ -1,0 +1,222 @@
+/*................*/
+
+/*...colors Sets....*/
+
+/*
+Main orange color
+#e67e22
+
+sec orange color
+#e67e17
+*/
+
+/*................*/
+
+/*...Main Sets....*/
+
+/*................*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    color: #555;
+    background-color: #fff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #e67e22;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 2px;
+    -webkit-transition: color .3s, border .3s;
+    transition: color .3s, border .3s;
+}
+
+a:hover,
+a:active {
+    color: #cf6d17;
+    border-bottom: 1px solid #cf6d17;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 0 1%;
+}
+
+.gray-bg {
+    background-color: #f4f4f4fb;
+}
+
+.clear-fix {
+    zoom: 1;
+}
+
+.clear-fix::after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*................*/
+
+/*...HTML Headers (h1,h2,..etc)....*/
+
+/*................*/
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 4px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 240%;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 114%;
+}
+
+/*................*/
+
+/*...Custom Classes Sets....*/
+
+/*................*/
+.text-center {
+    text-align: center;
+}
+
+.header-break::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.remove-link-border:link,
+.remove-link-border:active {
+    border-bottom: 0;
+}
+
+/*................*/
+
+/*...Icon Classes Sets....*/
+
+/*................*/
+.icon-big {
+    font-size: 300%;
+    color: #e67e22;
+    display: block;
+}
+
+.icon-small {
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    font-size: 130%;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5999;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-youtube:hover {
+    color: #cd201f;
+}
+
+.ion-social-instagram:hover {
+    color: #e4405f;
+}
+
+/*................*/
+
+/*...link & form Buttons Sets....*/
+
+/*................*/
+
+.btn:link,
+.btn:visited,
+.form-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.4s, border-color 0.4s, color 0.1s;
+    transition: background-color 0.4s, border-color 0.4s, color 0.1s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+.form-btn {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+}
+
+.btn:hover,
+.btn:active,
+.form-btn:hover {
+    background-color: #cf6d17 !important;
+    border-color: #e67e22;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn-ghost:hover {
+    color: #fff;
+}
+
+.form-btn {
+    cursor: pointer;
+}

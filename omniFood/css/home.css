@@ -1,0 +1,475 @@
+/*................*/
+
+/*...Header css....*/
+
+/*................*/
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url('../images/hero.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../images/hero.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header .mobile-nav-icon {
+    display: none;
+}
+
+header .logo-black {
+    display: none;
+}
+
+header .logo {
+    width: auto;
+    height: 115px;
+    margin-top: 15px;
+    float: left;
+}
+
+header .main-nav {
+    list-style: none;
+    margin-top: 50px;
+    float: right;
+}
+
+header .main-nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header .main-nav li a:link,
+header .main-nav li a:visited {
+    color: #fff;
+    font-size: 95%;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding: 8px;
+    -webkit-transition: border-color 0.4s, color 0.1s;
+    transition: border-color 0.4s, color 0.1s;
+    word-spacing: 2px;
+}
+
+header .main-nav li a:hover,
+header .main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+    color: #e67e22;
+}
+
+header .hero-banner {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+header .btn {
+    margin-right: 20px;
+}
+
+/*...feature section css....*/
+
+.sticky-nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .95);
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.sticky-nav .logo {
+    display: none;
+}
+
+.sticky-nav .logo-black {
+    height: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    display: block;
+}
+
+.sticky-nav .main-nav {
+    margin-top: 20px;
+}
+
+.sticky-nav .main-nav li a:link,
+.sticky-nav .main-nav li a:visited {
+    color: #555;
+    font-size: 90%;
+}
+
+/*................*/
+
+/*...feature section....*/
+
+/*................*/
+
+.features-section .feature-intro {
+    margin-bottom: 20px;
+}
+
+.features-section .feature-intro p {
+    font-size: 100%;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.features-section .feature-boxes {
+    margin-top: 25px;
+}
+
+.features-section .box h3 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.features-section .box p {
+    text-align: justify;
+    font-size: 90%;
+    line-height: 150%;
+}
+
+/*................*/
+
+/*...meal section....*/
+
+/*................*/
+
+.meals-section {
+    padding: 0;
+}
+
+.meals-section h2 {
+    display: none;
+}
+
+.meals-section ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+}
+
+.meals-section li {
+    float: left;
+    width: 25%;
+    display: block;
+    overflow: hidden;
+}
+
+.meals-section figure {
+    background-color: #000;
+}
+
+.meals-section img {
+    width: 100%;
+    opacity: 0.7;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: opacity .5s, -webkit-transform .5s;
+    transition: opacity .5s, -webkit-transform .5s;
+    transition: opacity .5s, transform .5s;
+    transition: opacity .5s, transform .5s, -webkit-transform .5s;
+}
+
+.meals-section img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*................*/
+
+/*...steps section....*/
+
+/*................*/
+
+.steps-section .step-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-section .app-screen {
+    width: 40%;
+}
+
+.steps-section .step-box:last-child {
+    padding-top: 50px;
+}
+
+.steps-section .works-step {
+    margin-bottom: 40px;
+}
+
+.steps-section .works-step div {
+    float: left;
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 140%;
+    margin-right: 20px;
+}
+
+.steps-section .works-step:last-of-type {
+    margin-bottom: 60px;
+}
+
+.steps-section .app-btn img {
+    height: 50px;
+}
+
+.steps-section .app-btn img:hover {
+    opacity: .8;
+}
+
+.steps-section .app-btn:last-child {
+    margin-left: 12px;
+}
+
+/*................*/
+
+/*...cities section....*/
+
+/*................*/
+
+.cities_section img {
+    width: 100%;
+    height: auto;
+}
+
+.cities_section h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cities_section .city-feature {
+    margin-top: 10px;
+}
+
+/*................*/
+
+/*...testimonials section....*/
+
+/*................*/
+
+.testimonials-section {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .7)), to(rgba(0, 0, 0, .8))), url("../images/back-customers.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url("../images/back-customers.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.testimonials-section blockquote {
+    font-style: italic;
+    text-align: justify;
+    line-height: 150%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.testimonials-section blockquote::before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+.testimonials-section cite {
+    font-size: 80%;
+    display: block;
+    margin-top: 20px;
+}
+
+.testimonials-section cite img {
+    border-radius: 50%;
+    height: 70px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/*................*/
+
+/*...prices section....*/
+
+/*................*/
+
+.section-plans .plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 2px #e8e8e8;
+    box-shadow: 0 2px 2px #e8e8e8;
+}
+
+.section-plans .plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.section-plans .plan-box div:first-child {
+    background-color: #faf9f9;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.section-plans .plan-box div:last-child {
+    text-align: center;
+    border: none;
+}
+
+.section-plans .plan-box .plan-price {
+    color: #e67e22;
+    font-size: 350%;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.section-plans .plan-box .plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.section-plans .plan-box .plan-meal {
+    font-size: 80%;
+}
+
+.section-plans .plan-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-plans .plan-box ul li {
+    padding: 5px 0;
+    font-size: 95%;
+}
+
+.section-plans .plan-box .icon-small {
+    font-size: 140%;
+}
+
+.section-plans .plan-box .btn:link {
+    font-size: 90%;
+    padding: 8px 20px !important;
+}
+
+/*................*/
+
+/*...contact us section....*/
+
+/*................*/
+
+.contact-section .contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-section .contact-form .row {
+    margin-bottom: 3px;
+}
+
+.contact-section .contact-form input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    font-weight: 300;
+    font-size: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #555;
+}
+
+.select-option {
+    font-size: 90%;
+    color: #555;
+}
+
+.contact-section .contact-form textarea {
+    height: 100px;
+}
+
+/*................*/
+
+/*...footer us section....*/
+
+/*................*/
+
+footer {
+    padding: 35px 0;
+    background-color: #333;
+    color: #888;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a:link,
+footer ul li a:visited {
+    border: none;
+    padding: 7px;
+    color: #888;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+    color: #ddd;
+}
+
+footer .footer-nav {
+    text-align: left;
+    font-size: 79%;
+}
+
+footer .social-nav {
+    text-align: right;
+}
+
+footer .copy-right {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 80%;
+}
+
+/*................*/
+
+/*...animated Classes Sets....*/
+
+/*................*/
+
+.js--wp-animate-fade1,
+.js--wp-animate-fade2,
+.js--wp-animate-fadeUp {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-animate-fade1.animated,
+.js--wp-animate-fade2.animated,
+.js--wp-animate-fadeUp.animated {
+    opacity: 1;
+}
