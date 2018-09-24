@@ -1,5 +1,5 @@
 # font development
-After many years in back-end development i decied to be full stack developer. so i will invest more and more in front end from theoretical side and technology side and go deeply as much i can to be one of the best in this field.
+After many years in back-end development I decied to go to next level "full stack developer". so now I am spending a lot of time to re-master front end from two side: theoretical and technical. Also try hard as I can to go deeply to know how everything work, and that will help me to be one from the best developer in this world.
 
 Codes for HTML, CSS, JS, React, React Native..............etc.
 
