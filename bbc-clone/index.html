@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/grid-system.css">
     <link rel="stylesheet" href="css/shared.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/media-queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <title>BBC</title>
 </head>
@@ -20,7 +21,7 @@
             <div class="main-logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#"><i class="ion-android-person"></i>sign in</a></li>
+                    <li><a href="#"><i class="ion-android-person"></i><span>sign in</span></a></li>
                     <li><a href="#">home</a></li>
                     <li><a href="#">news</a></li>
                     <li><a href="#">sport</a></li>
@@ -211,7 +212,7 @@
     <!-- latest news -->
     <section id="latest-news" class="latest-news section clear-fix">
         <div class="row">
-            <h2><a href="#" class="tag tag-red">news</a></h2>
+            <h2 class="section-header"><a href="#" class="tag tag-red">news</a></h2>
         </div>
         <div class="row">
             <div class="col span_1_of_3 ">
@@ -273,7 +274,7 @@
     <!-- sport news -->
     <section id="sport-news" class="latest-news section clear-fix">
         <div class="row">
-            <h2><a href="#" class="tag tag-yello">sport</a></h2>
+            <h2  class="section-header"><a href="#" class="tag tag-yello">sport</a></h2>
         </div>
         <div class="row">
             <div class="col span_1_of_3 ">
@@ -337,7 +338,7 @@
     <!-- africa news -->
     <section id="africa-news" class="latest-news section clear-fix">
         <div class="row">
-            <h2><a href="#" class="tag tag-red">africa news</a></h2>
+            <h2  class="section-header"><a href="#" class="tag tag-red">africa news</a></h2>
         </div>
         <div class="row">
             <div class="col span_1_of_4">
@@ -418,7 +419,7 @@
     <!-- editors picks -->
     <section id="editors-picks" class="highlight-module latest-news section clear-fix bg-gray tag-sky">
         <div class="row">
-            <h2><a href="#" class="tag tag-sky">editor’s picks</a></h2>
+            <h2 class="section-header"><a href="#" class="tag tag-sky">editor’s picks</a></h2>
         </div>
         <div class="row">
             <!-- right -->
@@ -611,7 +612,7 @@
     <section id="features-section" class="section clear-fix latest-news">
         <div class="row">
             <div class="col span_1_of_2">
-                <h2><a href="">future now</a></h2>
+                <h2 class="section-header"><a href="">future now</a></h2>
 
                 <div class="item matchheight">
                     <a href="#" class="item-link">
@@ -628,7 +629,7 @@
                 </div>
             </div>
             <div class="col span_1_of_2">
-                <h2><a href="">technology of business</a></h2>
+                <h2 class="section-header"><a href="">technology of business</a></h2>
 
                 <div class="item matchheight">
                     <a href="#" class="item-link">
@@ -649,229 +650,247 @@
 
     <!-- end bbc feature  -->
 
+    <!-- BBC on-air -->
+    <section id="bbc-broadcast" class="section clear-fix">
+        <div class="row ">
+            <div class="bbc-broadcast_container clear-fix">
+                    <div class="bbc-broadcast_header"><h2><a href="#">bbc world service</a></h2></div>
+                    <div class="bbc-broadcast_content">
+                        <i class="icon ion-volume-high"></i>
+                        <a href="#">
+                                <span class="bbc-broadcast_content__onair">On Air:</span>
+                                <span class="bbc-broadcast_content__subject">music extra</span>
+                        </a>
+                </div>
+            </div>
+       
+        </div>
+    </section>  
+    <!-- end BBC on-air -->
+
     <!-- more from-around -->
     <section id="more-from-around" class="highlight-module latest-news section clear-fix bg-gray tag-sky">
-            <div class="row">
-                <h2><a href="#" class="tag tag-sky">More from around the BBC</a></h2>
-            </div>
-            <div class="row">
-                  <!-- left -->
-                <div class="col span_1_of_3">
-                        <div class="top-list" >
-                            <h2>from our correspondents</h2>
-                            <ul class="top-list__list image">
-                                <li>
-                                    <a href="#">
-                                    <div class="top-list-item__circle image"><img src="img/laura-kin-auth.jpg" alt=""></div>
-                                            <h3>Embarrassing rebuff for PM in Salzburg 
-                                            <span class="top-list-item__byline">By Laura Kuenssberg</span></h3>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            <div class="top-list-item__circle image"><img src="img/sarah-auth.jpg" alt=""></div>
-                                            <h3>Russians mock improbable spy duo   
-                                        <span class="top-list-item__byline">By Sarah Rainsford</span>  </h3>
-                                    </a>
-                                </li>
-                                <li>
-                                        <a href="#">
-                                                <div class="top-list-item__circle image"><img src="img/sean-auth.jpg" alt=""></div>
-                                                <h3>Imprisoned suffragette letter discovered    
-                                            <span class="top-list-item__byline">By Sean Coughlan</span>  </h3>
-                                        </a>
-                                    </li>
-                                <li>
-                                    <a href="#">
-                                            <div class="top-list-item__circle image"><img src="img/laura-kin-auth.jpg" alt=""></div>
-                                            <h3> Brexit: The sound of 'no, no, no'
+        <div class="row">
+            <h2 class="section-header"><a href="#" class="tag tag-sky">More from around the BBC</a></h2>
+        </div>
+        <div class="row main-content">
+                <!-- left -->
+            <div class="col span_1_of_3 left">
+                    <div class="top-list" >
+                        <h2>from our correspondents</h2>
+                        <ul class="top-list__list image">
+                            <li>
+                                <a href="#">
+                                <div class="top-list-item__circle image"><img src="img/laura-kin-auth.jpg" alt=""></div>
+                                        <h3>Embarrassing rebuff for PM in Salzburg 
                                         <span class="top-list-item__byline">By Laura Kuenssberg</span></h3>
-                                    </a>
-                                </li>
-                                <li>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                        <div class="top-list-item__circle image"><img src="img/sarah-auth.jpg" alt=""></div>
+                                        <h3>Russians mock improbable spy duo   
+                                    <span class="top-list-item__byline">By Sarah Rainsford</span>  </h3>
+                                </a>
+                            </li>
+                            <li>
                                     <a href="#">
-                                            <div class="top-list-item__circle image"><img src="img/Karishma-auth.jpg" alt=""></div>
-                                            <h3> US trade and a tale of two Chinas
-                                        <span class="top-list-item__byline">By Karishma Vaswani</span>  </h3>
+                                            <div class="top-list-item__circle image"><img src="img/sean-auth.jpg" alt=""></div>
+                                            <h3>Imprisoned suffragette letter discovered    
+                                        <span class="top-list-item__byline">By Sean Coughlan</span>  </h3>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                            <div class="top-list-item__circle image"><img src="img/katy-auth.jpg" alt=""></div>
-                                            <h3> Venezuela's migration crisis: Is enough being done?  
-                                            <span class="top-list-item__byline">By Katy Watson</span>  </h3>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            <div class="top-list-item__circle image"><img src="img/amol-rajon.jpg" alt=""></div>
-                                            <h3> Can a new Kangaroo transform British TV?  
-                                                <span class="top-list-item__byline">By Amol Rajan</span>  </h3>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                            <div class="top-list-item__circle image"><img src="img/laura-auth.jpg" alt=""></div>
-                                            <h3> The leader caught between Trump and Kim  
-                                                <span class="top-list-item__byline">By Laura Bicker</span>  </h3>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                            <li>
+                                <a href="#">
+                                        <div class="top-list-item__circle image"><img src="img/laura-kin-auth.jpg" alt=""></div>
+                                        <h3> Brexit: The sound of 'no, no, no'
+                                    <span class="top-list-item__byline">By Laura Kuenssberg</span></h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                        <div class="top-list-item__circle image"><img src="img/Karishma-auth.jpg" alt=""></div>
+                                        <h3> US trade and a tale of two Chinas
+                                    <span class="top-list-item__byline">By Karishma Vaswani</span>  </h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                        <div class="top-list-item__circle image"><img src="img/katy-auth.jpg" alt=""></div>
+                                        <h3> Venezuela's migration crisis: Is enough being done?  
+                                        <span class="top-list-item__byline">By Katy Watson</span>  </h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                        <div class="top-list-item__circle image"><img src="img/amol-rajon.jpg" alt=""></div>
+                                        <h3> Can a new Kangaroo transform British TV?  
+                                            <span class="top-list-item__byline">By Amol Rajan</span>  </h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                        <div class="top-list-item__circle image"><img src="img/laura-auth.jpg" alt=""></div>
+                                        <h3> The leader caught between Trump and Kim  
+                                            <span class="top-list-item__byline">By Laura Bicker</span>  </h3>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-  <!-- right -->
-                <div class="col span_2_of_3 right">
-                    <div class="col span_2_of_2 ">
-                        <!-- item slot-->
-                        <div class="media-banner">
-                            <a href="#" class="media-banner__link">
+                </div>
+<!-- right -->
+            <div class="col span_2_of_3 right">
+                <div class="col span_2_of_2 ">
+                    <!-- item slot-->
+                    <div class="media-banner">
+                        <a href="#" class="media-banner__link">
+                            <!-- item image -->
+                            <div class="media-banner__img">
+                                <img src="img/more-from-hero.jpg" alt="">
+                            </div>
+                            <!-- item information -->
+                            <div class="media-banner__info">
+                                <h3>Chas from Chas and Dave dies</h3>
+                                <p>Chas Hodges was one half of the musical duo whose hits included Rabbit and Snooker Loopy.</p>
+                                <a href="#" class="tag tag-red">entertainment & arts</a>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end item slot -->
+                </div>
+
+                <!--row of items -->
+                <!-- 3items/3item -->
+                <div class="editors-picks-news">
+                    <!-- start of item -->
+                    <div class="col span_1_of_3">
+                        <div class="item matchheight">
+                            <a href="#" class="item-link">
                                 <!-- item image -->
-                                <div class="media-banner__img">
-                                    <img src="img/more-from-hero.jpg" alt="">
-                                </div>
-                                <!-- item information -->
-                                <div class="media-banner__info">
-                                    <h3>Chas from Chas and Dave dies</h3>
-                                    <p>Chas Hodges was one half of the musical duo whose hits included Rabbit and Snooker Loopy.</p>
-                                    <a href="#" class="tag tag-red">entertainment & arts</a>
+                                <figure>
+                                    <img src="img/more-from-1.jpg" alt="">
+                                </figure>
+                                <!-- item inforamtion -->
+                                <div class="item-info">
+                                    <h3>Japan's rovers send pictures from asteroid</h3>
+                                    <p>Pictures have emerged from the surface of an asteroid after Japan landed two robotic rovers on it.</p>
+                                    <a href="#" class="tag tag-red">science & enviroment</a>
                                 </div>
                             </a>
                         </div>
-                        <!-- end item slot -->
                     </div>
-    
-                    <!--row of items -->
-                    <!-- 3items/3item -->
-                    <div class="editors-picks-news">
-                        <!-- start of item -->
-                        <div class="col span_1_of_3">
-                            <div class="item matchheight">
-                                <a href="#" class="item-link">
-                                    <!-- item image -->
-                                    <figure>
-                                        <img src="img/more-from-1.jpg" alt="">
-                                    </figure>
-                                    <!-- item inforamtion -->
-                                    <div class="item-info">
-                                        <h3>Japan's rovers send pictures from asteroid</h3>
-                                        <p>Pictures have emerged from the surface of an asteroid after Japan landed two robotic rovers on it.</p>
-                                        <a href="#" class="tag tag-red">science & enviroment</a>
-                                    </div>
-                                </a>
-                            </div>
+                    <!-- end of item -->
+
+                    <!-- start of item -->
+                    <div class="col span_1_of_3">
+                        <div class="item matchheight">
+                            <a href="#" class="item-link">
+                                <!-- item image -->
+                                <figure>
+                                    <img src="img/more-from-2.jpg" alt="">
+                                </figure>
+                                <!-- item inforamtion -->
+                                <div class="item-info">
+                                    <h3>Twitter warns direct messages were exposed</h3>
+                                    <p>A "bug" on the network existed for over a year, the company said as it warned a small number of...</p>
+                                    <a href="sadsad.com" class="tag tag-red">technology</a>
+                                </div>
+                            </a>
                         </div>
-                        <!-- end of item -->
-    
-                        <!-- start of item -->
-                        <div class="col span_1_of_3">
-                            <div class="item matchheight">
-                                <a href="#" class="item-link">
-                                    <!-- item image -->
-                                    <figure>
-                                        <img src="img/more-from-2.jpg" alt="">
-                                    </figure>
-                                    <!-- item inforamtion -->
-                                    <div class="item-info">
-                                        <h3>Twitter warns direct messages were exposed</h3>
-                                        <p>A "bug" on the network existed for over a year, the company said as it warned a small number of...</p>
-                                        <a href="sadsad.com" class="tag tag-red">technology</a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end of item -->
-    
-                        <!-- start of item -->
-                        <div class="col span_1_of_3">
-                            <div class="item matchheight">
-                                <a href="#" class="item-link">
-                                    <!-- item image -->
-                                    <figure>
-                                        <img src="img/more-from-3.jpg" alt="">
-                                    </figure>
-                                    <!-- item inforamtion -->
-                                    <div class="item-info">
-                                        <h3>Pound falls after May's Brexit statement</h3>
-                                        <p>Sterling's slide deepens after the Prime Minister's comments renew fears of a no-deal Brexit.</p>
-                                        <a href="#" class="tag tag-red">business</a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end of item -->
-    
-                        <!-- start of item -->
-                        <div class="col span_1_of_3">
-                            <div class="item matchheight">
-                                <a href="#" class="item-link">
-                                    <!-- item image -->
-                                    <figure>
-                                        <img src="img/more-from-4.jpg" alt="">
-                                    </figure>
-                                    <!-- item inforamtion -->
-                                    <div class="item-info">
-                                        <h3>Don't go cold turkey' to quit smoking</h3>
-                                        <p>The annual Stoptober campaign launches with a warning to seek help when trying to kick the habit.</p>
-                                        <a href="#" class="tag tag-red">heatlh</a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end of item -->
-    
-                        <!-- start of item -->
-                        <div class="col span_1_of_3">
-                            <div class="item matchheight">
-                                <a href="#" class="item-link">
-                                    <!-- item image -->
-                                    <figure>
-                                        <img src="img/more-from-5.jpg" alt="">
-                                    </figure>
-                                    <!-- item inforamtion -->
-                                    <div class="item-info">
-                                        <h3>Facebook stops staff helping politicians</h3>
-                                        <p>The social network will no longer send employees to work at the offices of political campaigns.</p>
-                                       
-                                        <a href="#" class="tag tag-red">technology</a>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end of item -->
-    
-                        <!-- start of item -->
-                        <div class="col span_1_of_3">
-                            <div class="item matchheight">
-                                <a href="#" class="item-link">
-                                    <!-- item image -->
-                                    <figure>
-                                        <img src="img/more-from-6.jpg" alt="">
-                                    </figure>
-                                    <!-- item inforamtion -->
-                                    <div class="item-info">
-                                        <h3>
-                                                Changing the lives of people with dementia</h3>
-                                        <p>Confronting the stigma and isolation people with dementia face in some communities around the world.</p>
-                                        <a href="sss" class="tag tag-sky">in pictures</a>
-                                    </div>
-                                </a>
-                            </div>
-    
-                        </div>
-                        <!-- end of item -->
                     </div>
-                    <!-- end row of items -->
+                    <!-- end of item -->
+
+                    <!-- start of item -->
+                    <div class="col span_1_of_3">
+                        <div class="item matchheight">
+                            <a href="#" class="item-link">
+                                <!-- item image -->
+                                <figure>
+                                    <img src="img/more-from-3.jpg" alt="">
+                                </figure>
+                                <!-- item inforamtion -->
+                                <div class="item-info">
+                                    <h3>Pound falls after May's Brexit statement</h3>
+                                    <p>Sterling's slide deepens after the Prime Minister's comments renew fears of a no-deal Brexit.</p>
+                                    <a href="#" class="tag tag-red">business</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end of item -->
+
+                    <!-- start of item -->
+                    <div class="col span_1_of_3">
+                        <div class="item matchheight">
+                            <a href="#" class="item-link">
+                                <!-- item image -->
+                                <figure>
+                                    <img src="img/more-from-4.jpg" alt="">
+                                </figure>
+                                <!-- item inforamtion -->
+                                <div class="item-info">
+                                    <h3>Don't go cold turkey' to quit smoking</h3>
+                                    <p>The annual Stoptober campaign launches with a warning to seek help when trying to kick the habit.</p>
+                                    <a href="#" class="tag tag-red">heatlh</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end of item -->
+
+                    <!-- start of item -->
+                    <div class="col span_1_of_3">
+                        <div class="item matchheight">
+                            <a href="#" class="item-link">
+                                <!-- item image -->
+                                <figure>
+                                    <img src="img/more-from-5.jpg" alt="">
+                                </figure>
+                                <!-- item inforamtion -->
+                                <div class="item-info">
+                                    <h3>Facebook stops staff helping politicians</h3>
+                                    <p>The social network will no longer send employees to work at the offices of political campaigns.</p>
+                                    
+                                    <a href="#" class="tag tag-red">technology</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end of item -->
+
+                    <!-- start of item -->
+                    <div class="col span_1_of_3">
+                        <div class="item matchheight">
+                            <a href="#" class="item-link">
+                                <!-- item image -->
+                                <figure>
+                                    <img src="img/more-from-6.jpg" alt="">
+                                </figure>
+                                <!-- item inforamtion -->
+                                <div class="item-info">
+                                    <h3> Changing the lives of people with dementia</h3>
+                                    <p>Confronting the stigma and isolation people with dementia face in some communities around the world.</p>
+                                    <a href="sss" class="tag tag-sky">in pictures</a>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- end of item -->
                 </div>
+                <!-- end row of items -->
             </div>
-        </section>
-        <!-- end editors picks -->
+            
+        </div>
+    </section>
+        <!-- end from-around  -->
 
         
     <!-- bbc selections -->
     <section id="bbc-selections" class="section clear-fix">
         <div class="row">
-            <div class="col span_1_of_2">
-                <h2><a href="#">china</a></h2>
+            <div class="col span_1_of_2 left">
+                <h2 class="section-header"><a href="#">china</a></h2>
                 <!-- item slot-->
                 <div class="media-banner ">
                     <a href="#" class="media-banner__link">
@@ -888,8 +907,8 @@
                 </div>
                 <!-- end item slot -->
             </div>
-            <div class="col span_1_of_2">
-                <h2><a href="#">global education</a></h2>
+            <div class="col span_1_of_2 right">
+                <h2 class="section-header"><a href="#">global education</a></h2>
                 <!-- item slot-->
                 <div class="media-banner ">
                     <a href="#" class="media-banner__link">
@@ -915,7 +934,7 @@
     <!-- bbc in other langauge-->
     <section id="bbc-other-languages" class="section clear-fix">
         <div class="row">
-            <h2><a href="#">bbc in other lnaguages</a></h2>
+            <h2 class="section-header"><a href="#">bbc in other lnaguages</a></h2>
         </div>
         <div class="row">
             <div class="col span_3_of_7 other-langauges-headlines">
