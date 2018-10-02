@@ -102,7 +102,7 @@ header .main-nav a:visited {
     height: 40px;
     color: #FFFFFF;
     padding: 0 18px;
-    border-right: 1px solid#666666;
+    border-right: 1px solid #666666;
     text-transform: capitalize;
     font-weight: 700;
 }
@@ -141,7 +141,7 @@ header .main-nav li:nth-child(6) a:active {
 
 header .main-nav li:first-child a:link,
 header .main-nav li:first-child a:visited {
-    padding-right: 70px;
+    width: 170px;
     border-left: 1px solid #666666;
 }
 
@@ -158,15 +158,17 @@ header li:first-child i {
 
 header .main-nav li:last-child a:link,
 header .main-nav li:last-child a:visited {
-    padding-right: 80px;
+    width: 130px;
+    position: relative;
 }
 
 
 
 header li:last-child i {
-    position: relative;
+    position: absolute;
     font-size: 80%;
-    left: 60px;
+    left: 80%;
+    top: 1%;
 }
 
 

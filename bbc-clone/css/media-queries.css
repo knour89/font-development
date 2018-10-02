@@ -91,11 +91,12 @@
     }
 
 
-
     header .main-nav li:first-child a:link,
     header .main-nav li:first-child a:visited {
         padding-right: 0;
+        width: auto;
     }
+
 
     header li:first-child i {
         padding: 1px 4px;
@@ -107,13 +108,8 @@
     header .main-nav li:last-child a:link,
     header .main-nav li:last-child a:visited {
         padding-right: 20px;
+        width: auto;
     }
-
-
-    header li:last-child i {
-        left: 10px;
-    }
-
 
     header .header-search .search-button {
         position: absolute;
