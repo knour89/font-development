@@ -141,7 +141,7 @@ header .main-nav li:nth-child(6) a:active {
 
 header .main-nav li:first-child a:link,
 header .main-nav li:first-child a:visited {
-    width: 170px;
+    width: 180px;
     border-left: 1px solid #666666;
 }
 
