@@ -90,7 +90,6 @@ header .main-logo img {
     padding-top: 9px;
 }
 
-
 header .main-nav li {
     float: left;
 }
@@ -103,35 +102,9 @@ header .main-nav a:visited {
     height: 40px;
     color: #FFFFFF;
     padding: 0 18px;
-    border-right: 1px solid#666666;
+    border-right: 1px solid #666666;
     text-transform: capitalize;
     font-weight: 700;
-}
-
-header li:first-child i {
-    color: #000000;
-    background-color: #fff;
-    padding: 3px 6px;
-    border-radius: 50%;
-    font-size: 120%;
-    margin-right: 10px;
-}
-
-header li:last-child i {
-    position: relative;
-    font-size: 80%;
-    left: 60px;
-}
-
-header .main-nav li:first-child a:link,
-header .main-nav li:first-child a:visited {
-    padding-right: 90px;
-    border-left: 1px solid #666666;
-}
-
-header .main-nav li:last-child a:link,
-header .main-nav li:last-child a:visited {
-    padding-right: 80px;
 }
 
 
@@ -139,6 +112,7 @@ header .main-nav a:hover,
 header .main-nav a:active {
     border-bottom: 4px solid #FFFFFF;
 }
+
 
 header .main-nav li:nth-child(2) a:hover,
 header .main-nav li:nth-child(2) a:active {
@@ -165,18 +139,53 @@ header .main-nav li:nth-child(6) a:active {
     border-bottom: 4px solid #2897E5;
 }
 
+header .main-nav li:first-child a:link,
+header .main-nav li:first-child a:visited {
+    width: 180px;
+    border-left: 1px solid #666666;
+}
+
+
+header li:first-child i {
+    color: #000000;
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 120%;
+    margin-right: 10px;
+}
+
+
+header .main-nav li:last-child a:link,
+header .main-nav li:last-child a:visited {
+    width: 130px;
+    position: relative;
+}
+
+
+
+header li:last-child i {
+    position: absolute;
+    font-size: 80%;
+    left: 80%;
+    top: 1%;
+}
+
+
+
+
 header .header-search {
     float: right;
     padding-top: 8px;
+    position: relative;
 }
 
 header .header-search input[type="text"] {
-    width: 140px;
     height: 25px;
     border: none;
-    padding: 5px;
+    padding-left: 5px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 95%;
 }
 
 header .header-search input[type="text"]::placeholder {
@@ -184,7 +193,9 @@ header .header-search input[type="text"]::placeholder {
 }
 
 header .header-search .search-button {
-    float: right;
+    position: absolute;
+    right: 0;
+    top:8px;
     border: none;
     height: 25px;
     width: 30px;
@@ -215,7 +226,7 @@ header .header-search .search-button {
 #header-more-links ul li {
     float: left;
     width: 14%;
-    margin: 5px 30px;
+  
 }
 
 #header-more-links ul li a:link,
@@ -336,6 +347,7 @@ footer .footer-helper-links li a:visited {
     display: block;
     padding: 5px;
     margin-right: 10px;
+    
 }
 
 footer .footer-helper-links li a:hover,
@@ -353,6 +365,6 @@ footer .footer-helper-links li:first-child a:link {
     float: left;
 }
 
-footer p {
+footer .footer-copy-right  p {
     font-size: 90%;
 }

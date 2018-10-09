@@ -1,0 +1,604 @@
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+    header .main-nav a:link,
+    header .main-nav a:visited {
+    
+        padding: 0 9px;
+    }
+
+    header .main-nav li:first-child a:link,
+    header .main-nav li:first-child a:visited {
+        padding-right: 50px;
+    }
+
+    header .main-nav li:last-child a:link,
+    header .main-nav li:last-child a:visited {
+        padding-right: 30px;
+    }
+
+
+
+    header li:last-child i {
+  
+        left: 20px;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+
+    /* ------- */
+    /* main sets */
+    /* ------- */
+    .section {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .col {
+        width: 100%;
+        margin-left: 0;
+
+    }
+
+    .row {
+        padding: 0 4%;
+    }
+
+    /* ------- */
+    /*END: main sets */
+    /* ------- */
+
+
+
+
+    /* ------- */
+    /* header */
+    /* ------- */
+    header .row {
+        padding: 0 2%;
+    }
+
+    header .main-logo img {
+        padding-right: 10px;
+        padding-top: 5px;
+        height: 25px;
+    }
+
+    header .main-nav a:link,
+    header .main-nav a:visited {
+        line-height: 30px;
+        height: 30px;
+        padding: 0 9px;
+    }
+
+
+    header .main-nav li:nth-child(5) a,
+    header .main-nav li:nth-child(6) a,
+    header .main-nav li:nth-child(7) a,
+    header .main-nav li:nth-child(8) a,
+    header .main-nav li:nth-child(9) a {
+        display: none;
+    }
+
+    header .main-nav li:first-child span {
+        display: none;
+    }
+
+    header form input[type="text"] {
+        display: none;
+    }
+
+
+    header .main-nav li:first-child a:link,
+    header .main-nav li:first-child a:visited {
+        padding-right: 0;
+        width: auto;
+    }
+
+
+    header li:first-child i {
+        padding: 1px 4px;
+        border-radius: 50%;
+        font-size: 110%;
+        margin-right: 10px;
+    }
+
+    header .main-nav li:last-child a:link,
+    header .main-nav li:last-child a:visited {
+        padding-right: 20px;
+        width: auto;
+    }
+
+    header .header-search .search-button {
+        position: absolute;
+        right: 0;
+        top: 3px;
+        border: none;
+        height: 25px;
+        width: 30px;
+        background-color: #000;
+        color: #FFFFFF;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+
+    #header-more-links ul li {
+        float: left;
+        width: 30%;
+        margin: 1%;
+    }
+
+    #header-more-links ul li a:link,
+    #header-more-links ul li a:visited {
+        padding: 0;
+    }
+
+    /* ------- */
+    /* END: header */
+    /* ------- */
+
+
+
+
+    /* ------- */
+    /* latest item */
+    /* ------- */
+    .latest-news .item {
+        border-bottom: 1px solid #d3d3d3;
+        padding: 12px 0;
+    }
+
+    .latest-news .item .item-info h3 {
+        font-size: 98%;
+        font-weight: 900;
+        color: #000;
+        margin: 0 0 8px 0;
+    }
+
+    .latest-news .item .item-info .tag {
+        position: static;
+    }
+
+    .latest-news .item .item-link {
+        /* to remove extra space arround news title */
+        display: block;
+    }
+
+    /* ------- */
+    /*END: lastest news items */
+    /* ------- */
+
+    /* ------- */
+    /* top list item */
+    /* ------- */
+    .top-list li a:link,
+    .top-list li a:visited {
+        height: 100px;
+    }
+
+    .top-list h3 {
+
+        left: 90px;
+        top: 25px;
+        font-size: 115%;
+    }
+
+    .top-list .top-list-item__circle {
+        top: 30px;
+        font-size: 110%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+
+    .top-list .top-list-item__circle.image {
+        display: none;
+    }
+
+
+    .top-list .top-list__list.image h3 {
+        position: static;
+        padding: 20px 18px;
+        text-align: center;
+        font-size: 115%;
+    }
+
+    /* ------- */
+    /* END: top list item */
+    /* ------- */
+
+    /* ------- */
+    /*highlight items */
+    /* ------- */
+
+    .highlight-module .item .item-info {
+        padding: 0;
+    }
+
+    /* ------- */
+    /*END: highlight items */
+    /* ------- */
+
+    /* ------- */
+    /* in spot section */
+    /* ------- */
+    /* remove welcome header */
+
+    #in-spot .welcome {
+        display: none;
+    }
+
+    /* for right section */
+    #in-spot .right .media-banner .media-banner__info {
+        position: static;
+        margin: 0;
+        background-color: #fff;
+        border-bottom: 1px solid #d3d3d3;
+        padding: 12px 0;
+    }
+
+    #in-spot .right .media-banner .media-banner__img img {
+        display: none;
+    }
+
+    #in-spot .right .media-banner .media-banner__info h3 {
+        font-size: 98%;
+        font-weight: 900;
+        margin-bottom: 8px;
+        color: #000;
+        text-shadow: none;
+    }
+
+    #in-spot .right .media-banner .media-banner__info .tag {
+        text-shadow: none;
+        font-size: 80%;
+        color: #767676;
+    }
+
+    /* ------- */
+    /*END: in spot */
+    /* ------- */
+
+
+    /* ------- */
+    /* Media banner for*/
+    /* in spot section */
+    /* editors-picks */
+    /* more-from-around*/
+    /* ------- */
+    #in-spot,
+    #editors-picks,
+    #more-from-around {
+        background-color: #fff;
+    }
+
+    #in-spot .media-banner h3,
+    #editors-picks .media-banner h3,
+    #more-from-around .media-banner h3 {
+        font-size: 140%;
+    }
+
+    #in-spot .media-banner p,
+    #editors-picks .media-banner p,
+    #more-from-around .media-banner p {
+        display: none;
+    }
+
+    #in-spot .media-banner .tag,
+    #editors-picks .media-banner .tag,
+    #more-from-around .media-banner .tag {
+        font-size: 90%;
+    }
+
+
+    /* ------- */
+    /*END: media banner */
+    /* ------- */
+
+    /* ------- */
+    /* News Item for*/
+    /* sport, news, africa sections, editors-picks and  more-from-around */
+    /* ------- */
+    #latest-news .item figure img,
+    #sport-news .item figure img,
+    #africa-news .item figure img,
+    #editors-picks .item figure img,
+    #more-from-around .item figure img {
+        display: none;
+    }
+
+
+    #latest-news .item p,
+    #sport-news .item p,
+    #africa-news .item p,
+    #editors-picks .item p,
+    #more-from-around .item p {
+        display: none;
+    }
+
+
+    /* revirse left and right order for more-from-around  */
+    #more-from-around .main-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* ------- */
+    /*END: News Item  */
+    /* ------- */
+
+
+    /* ------- */
+    /*more from around */
+    /* ------- */
+
+    #more-from-around .top-list {
+        height: auto;
+    }
+
+    /* ------- */
+    /*END: more from around  */
+    /* ------- */
+
+
+
+    /* ------- */
+    /* features section*/
+    /* ------- */
+    #features-section h2 {
+        margin-bottom: 0;
+    }
+
+    #features-section .item {
+        border-bottom: none !important;
+    }
+
+    #features-section figure {
+        margin-bottom: 10px;
+    }
+
+    /* ------- */
+    /*END: features section*/
+    /* ------- */
+
+
+
+    /* ------- */
+    /* bbc selections */
+    /* ------- */
+    #bbc-selections .left {
+        margin-bottom: 10px;
+    }
+
+    /* ------- */
+    /* END: selections*/
+    /* ------- */
+
+
+    /* ------- */
+    /* bbc other langauge section */
+    /* ------- */
+    #bbc-other-languages h2 {
+        font-size: 120%;
+    }
+
+    #bbc-other-languages .other-langauges-headlines li {
+        float: left;
+        width: 42%;
+
+    }
+
+    #bbc-other-languages .other-langauges-headlines li:nth-child(1),
+    #bbc-other-languages .other-langauges-headlines li:nth-child(3) {
+        margin-right: 30px;
+    }
+
+
+    #bbc-other-languages .other-langauges-headlines li:nth-child(1),
+    #bbc-other-languages .other-langauges-headlines li:nth-child(2) {
+        margin-bottom: 15px;
+    }
+
+
+    #bbc-other-languages .more-lang-links h2 {
+        margin-top: 25px;
+        font-size: 125%;
+    }
+
+    #bbc-other-languages .more-lang-links li {
+        float: left;
+        width: 48%;
+        margin: 0 5px 15px 0;
+    }
+
+    #bbc-other-languages .more-lang-links li span:nth-child(2) {
+        color: #1d6293;
+        font-size: 90%;
+    }
+
+    /* ------- */
+    /*End: bbc other langauge section */
+    /* ------- */
+
+
+    /* ------- */
+    /* footer section */
+    /* ------- */
+    footer .footer-all-links li {
+
+        width: 33%;
+    }
+
+
+    footer .footer-all-links li:nth-child(1) a,
+    footer .footer-all-links li:nth-child(4) a,
+    footer .footer-all-links li:nth-child(7) a,
+    footer .footer-all-links li:nth-child(10) a,
+    footer .footer-all-links li:nth-child(13) a,
+    footer .footer-all-links li:nth-child(16) a,
+    footer .footer-all-links li:nth-child(19) a,
+    footer .footer-all-links li:nth-child(22) a {
+        padding-left: 0;
+    }
+
+
+
+
+
+    footer .footer-all-links li:nth-child(19) a,
+    footer .footer-all-links li:nth-child(20) a,
+    footer .footer-all-links li:nth-child(21) a,
+    footer .footer-all-links li:nth-child(22) a,
+    footer .footer-all-links li:nth-child(23) a,
+    footer .footer-all-links li:nth-child(24) a {
+        padding-bottom: 18px;
+        /* this will push the border line between hsbc al links and heper links */
+        /* margin-bottom: 20px; */
+    }
+
+
+
+    footer .footer-all-links li:nth-child(3) a,
+    footer .footer-all-links li:nth-child(6) a,
+    footer .footer-all-links li:nth-child(9) a,
+    footer .footer-all-links li:nth-child(12) a,
+    footer .footer-all-links li:nth-child(15) a,
+    footer .footer-all-links li:nth-child(18) a,
+    footer .footer-all-links li:nth-child(21) a,
+    footer .footer-all-links li:nth-child(24) a {
+        border-right: 0;
+    }
+
+
+
+    footer .footer-helper-links li {
+        float: left;
+        width: 33%;
+    }
+
+    footer .footer-helper-links li a:link,
+    footer .footer-helper-links li a:visited {
+        padding: 10px 0;
+    }
+
+    .footer-copy-right {
+        margin-bottom: 10px;
+
+    }
+
+    footer .footer-copy-right p {
+        font-size: 85%;
+    }
+
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+    #in-spot .media-banner p,
+    #editors-picks .media-banner p,
+    #more-from-around .media-banner p {
+        display: block;
+    }
+
+    header .main-nav li:nth-child(5) a,
+    header .main-nav li:nth-child(6) a,
+    header .main-nav li:nth-child(7) a,
+    header .main-nav li:nth-child(8) a,
+    header .main-nav li:nth-child(9) a {
+        display: block;
+    }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 380px) {
+    header .main-nav li:nth-child(3) a {
+        display: block !important;
+    }
+    /* ------- */
+    /* broad cast fix width */
+    /* ------- */
+    #bbc-broadcast .bbc-broadcast_header{
+        width: 100%;
+    }
+     /* ------- */
+    /*END: broad cast fix width */
+    /* ------- */
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 380px) {
+    /* ------- */
+    /* broad cast fix width */
+    /* ------- */
+    #bbc-broadcast .bbc-broadcast_header{
+        width: 100%;
+    }
+     /* ------- */
+    /*END: broad cast fix width */
+    /* ------- */
+
+    header .main-nav li:nth-child(3) a,
+    header .main-nav li:nth-child(4) a,
+    header .main-nav li:nth-child(5) a,
+    header .main-nav li:nth-child(6) a,
+    header .main-nav li:nth-child(7) a,
+    header .main-nav li:nth-child(8) a,
+    header .main-nav li:nth-child(9) a {
+        display: none;
+    }
+
+    footer .footer-all-links li {
+        width: 50%;
+    }
+
+
+    footer .footer-all-links li:nth-child(1) a,
+    footer .footer-all-links li:nth-child(3) a,
+    footer .footer-all-links li:nth-child(5) a,
+    footer .footer-all-links li:nth-child(7) a,
+    footer .footer-all-links li:nth-child(9) a,
+    footer .footer-all-links li:nth-child(11) a,
+    footer .footer-all-links li:nth-child(13) a,
+    footer .footer-all-links li:nth-child(15) a,
+    footer .footer-all-links li:nth-child(17) a,
+    footer .footer-all-links li:nth-child(19) a,
+    footer .footer-all-links li:nth-child(21) a,
+    footer .footer-all-links li:nth-child(23) a {
+        padding-left: 0;
+        border: 0;
+    }
+
+
+
+    footer .footer-all-links li:nth-child(2) a,
+    footer .footer-all-links li:nth-child(4) a,
+    footer .footer-all-links li:nth-child(6) a,
+    footer .footer-all-links li:nth-child(8) a,
+    footer .footer-all-links li:nth-child(10) a,
+    footer .footer-all-links li:nth-child(12) a,
+    footer .footer-all-links li:nth-child(14) a,
+    footer .footer-all-links li:nth-child(16) a,
+    footer .footer-all-links li:nth-child(18) a,
+    footer .footer-all-links li:nth-child(20) a,
+    footer .footer-all-links li:nth-child(22) a,
+    footer .footer-all-links li:nth-child(24) a {
+        padding-left: 0;
+        border: 0;
+        border-left: 1px solid #949494;
+        padding-left: 15px;
+
+    }
+
+
+    footer .footer-helper-links li {
+
+        width: 50%;
+    }
+}
+
+
