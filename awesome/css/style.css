@@ -14,6 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+  
 }
 
 html {
@@ -47,6 +48,65 @@ h3::first-letter{
 
 
 
+
+/* --------------- */
+/* class for js */
+/* --------------- */
+nav.header-fix{
+    padding:2px 0;
+    background: rgba(0, 0, 0, .9);
+}
+
+.lightBoxModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    background-color: rgba(0,0,0,.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+.lightBoxContainer{
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.lightBoxModal img{
+    width: 100%;
+ }
+
+.lightBoxModal .lightBox-close{
+    color: #ccc;
+    background-color: #000;
+    position: absolute;
+    top: -2%;
+    right: -1%;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* --------------- */
+/* End: class for js */
+/* --------------- */
+
+
+
 /* --------------- */
 /* Classes */
 /* --------------- */
@@ -57,18 +117,35 @@ h3::first-letter{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
     margin: 0 auto;
 }
 
+.aw-justify-space-between{
+    justify-content: space-between;
+}
 .aw-align-center{
     align-items: center;
 }
 
+.aw-section .aw-container{
+    justify-content: center;
+}
 .aw-section{
     padding: 71px 0;
 }
 
+
+.aw-column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 45%;
+    
+}
+
+.add-margin-bottom{
+    margin-bottom: 45px;
+}
 
 .aw-arrow {
     display: block;
@@ -100,7 +177,6 @@ h3::first-letter{
 /* End: Classes */
 /* --------------- */
 
-
 /* --------------- */
 /* Header */
 /* --------------- */
@@ -110,13 +186,14 @@ header {
 
 header nav {
     position: fixed;
-    z-index: 1999;
+    z-index: 20;
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, .4);
+    padding: 13px 0;  
+    transition: all .3s ease;   
+    background: rgba(0, 0, 0, .3);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.4);
-    padding: 8px 0;
 }
 
 header ul.aw-main-nav {
@@ -132,7 +209,7 @@ header ul.aw-main-nav li{
 header ul.aw-main-nav a {
     display: block;
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
     text-transform: uppercase;
     word-spacing: 3px;
     height: 30px;
@@ -177,7 +254,7 @@ header .aw-header-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 10;
 }
 
 header .aw-header-text h1 {
@@ -206,16 +283,6 @@ header .aw-arrow:hover{
 /* --------------- */
 
 
-#aw-about .aw-column{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 0 0 45%;
-}
-
-#aw-about .aw-column:first-of-type{
-    margin-bottom: 45px;
-}
 
 #aw-about .icon{
     font-size: 45px;
@@ -271,13 +338,13 @@ header .aw-arrow:hover{
     height: 100%;
     top: 0;
     left: 0;
-    transition: all .5s ease;
+    transition: all .3s ease;
 }
 
 
 #aw-gallery ul li:hover::after{
     width: 0;
-    height: 0;
+    
 }
 
 /* --------------- */
@@ -289,20 +356,17 @@ header .aw-arrow:hover{
 /*End: testimonial section */
 /* --------------- */
 #aw-testimonial{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
 }
 
 #aw-testimonial .aw-testimonials{
-    max-width: 600px;
+    width: 600px;  
 }
 
 #aw-testimonial .aw-testimonials ul{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     overflow: hidden;
 }
 
@@ -311,7 +375,6 @@ header .aw-arrow:hover{
    display: flex;
    flex-direction: column;
    align-items: center;
- 
 }
 
 #aw-testimonial .aw-testimonials .aw-user-img{
@@ -375,12 +438,13 @@ header .aw-arrow:hover{
     background-color: #f8f8f8;
 }
 
+
 #contact-us form {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    width: 600px;
     align-items: center;
-    margin: 0 auto;
+   
 }
 
 #contact-us form input:not([type="submit"]),
