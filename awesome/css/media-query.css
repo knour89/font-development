@@ -1,0 +1,174 @@
+@media all and (max-width: 1024px){
+    .aw-container{
+        padding: 0 3%;
+    }
+
+    header .aw-header-text h1{
+        font-size: 60px;
+    }
+
+    header .aw-arrow {
+        padding: 18px;
+    }
+
+    #aw-testimonial .aw-testimonials .aw-arrow-right {
+        right: 10%;
+    }
+    
+    #aw-testimonial .aw-testimonials .aw-arrow-left {
+        left: 10%;
+    }
+}
+
+@media all and (max-width: 820px){
+ 
+    header .aw-header-text h1{
+        font-size: 50px;
+    }
+
+    header .aw-arrow {
+        padding: 15px;
+    }
+
+    #aw-testimonial .aw-testimonials .aw-arrow{
+        top: 45%;
+    }
+
+    #aw-testimonial .aw-testimonials .aw-arrow-right {
+        right: 15%;
+    }
+    
+    #aw-testimonial .aw-testimonials .aw-arrow-left {
+        left: 15%;
+    }
+
+}
+
+ 
+
+@media all and (max-width: 680px){
+
+    .mobile-nav-lightbox{
+        position: fixed;
+        top:  0;
+        left: 0;
+        background: rgba(0, 0, 0, .7);
+        width: 0;
+        height: 100%;
+        z-index: 9999;
+        transition: all .2s ease;
+        display: block;
+       
+    }
+
+    .mobile-nav-lightbox-increase-size{
+        width: 100%;
+    }
+
+    .mobile-nav-close{
+        position: absolute;
+        top: 15px;
+        right: 22px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .mobile-nav-lightbox ul{
+        margin: 50px 0 0 20px;
+        width: 120px;
+    }
+
+    .mobile-nav-lightbox li a{
+        display: block;
+        color: #fff;
+        font-size: 22px;
+        text-transform: capitalize;
+        border-bottom: 2px solid transparent;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-nav-lightbox li a:hover{
+        border-bottom: 2px solid #fff;
+    }
+
+    header ul.aw-main-nav{
+       display: none; 
+    }
+
+    header nav{
+        background:none;
+        box-shadow:none;
+        padding: 5px 0;  
+    }
+
+    header .aw-logo {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .aw-section{
+        padding: 30px 0;
+    }
+
+    .add-margin-bottom{
+        margin-bottom: 0;
+    }
+
+    .aw-column-2{
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+
+    .lightBoxModal .lightBox-close{
+        top: -4%;
+        right: -2%;
+    }
+
+    header .aw-header-text h1{
+        font-size: 40px;
+        margin-top: 60px;
+    }
+
+    header nav .icon-menu{
+        display: block;
+        color: #fff;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    header .aw-arrow {
+       display: none;
+    }
+
+
+    h3{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    #aw-about .icon{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    #aw-gallery ul li{
+        flex: 0 0 33.3%;
+    }
+
+    #aw-testimonial .aw-testimonials ul li > p{
+        font-size: 16px;
+    }
+
+    #aw-testimonial .aw-testimonials .aw-arrow-right,
+    #aw-testimonial .aw-testimonials .aw-arrow-left
+     {
+        padding: 11px;
+    }
+    
+    
+}
