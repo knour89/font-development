@@ -170,5 +170,14 @@
         padding: 11px;
     }
     
+}
+
+@media only screen  and (orientation: landscape) {
+ 
+    .lightBoxContainer{
+        position: relative;
+        max-width: 60%;
+        max-height: 80%;
+    }
     
 }
