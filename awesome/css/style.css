@@ -100,13 +100,8 @@ nav.header-fix{
     cursor: pointer;
 }
 
-.mobile-nav-lightbox{
-    display: none;
-}
 
-.mobile-nav-lightbox ul{
-    display: none;
-}
+
 /* --------------- */
 /* End: class for js */
 /* --------------- */
