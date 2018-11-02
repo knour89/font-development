@@ -111,6 +111,14 @@ nav.header-fix{
 /* --------------- */
 /* Classes */
 /* --------------- */
+.mobile-nav-lightbox{
+    display: none;
+}
+
+.mobile-nav-lightbox ul{
+    display: none;
+} 
+
 .force-display{
     display: block !important;
 }
