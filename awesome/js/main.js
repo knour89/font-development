@@ -14,13 +14,13 @@
 
         toggle.addEventListener('click', ()=>{
             mobileLightBox.classList.add('mobile-nav-lightbox-increase-size');
-            mobileNavi.classList.toggle('force-display');
+            
             toggle.classList.toggle('force-hide');
         })
 
         close.addEventListener('click', ()=>{
             mobileLightBox.classList.remove('mobile-nav-lightbox-increase-size');
-            mobileNavi.classList.toggle('force-display');
+           
             toggle.classList.toggle('force-hide');
         })
     }
