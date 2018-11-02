@@ -115,9 +115,7 @@ nav.header-fix{
     display: none;
 }
 
-.mobile-nav-lightbox ul{
-    display: none;
-} 
+ 
 
 .force-display{
     display: block !important;
