@@ -9,3 +9,14 @@ You are free to see my work and use my codes in your projects.
 BBC Link: https://knour89.github.io/front-development/bbc-clone/   <br>
 OmniFood Link:  https://knour89.github.io/front-development/omniFood/index.html  <br>
 Awesome Link: https://knour89.github.io/front-development/awesome/index.html
+
+
+
+
+
+
+
+UX Development:
+Accordion Panel by vanilla JS : https://codepen.io/knour89/full/qQjJxN/
+ <br>
+Slider with Transition animation by pure JS: https://codepen.io/knour89/full/bQwQjv/
