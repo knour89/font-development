@@ -20,3 +20,5 @@ UX Development:
 Accordion Panel by vanilla JS : https://codepen.io/knour89/full/qQjJxN/
  <br>
 Slider with Transition animation by pure JS: https://codepen.io/knour89/full/bQwQjv/
+<br>
+Smooth scrolling: https://codepen.io/knour89/full/Mzvaew/
