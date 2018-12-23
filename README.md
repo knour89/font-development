@@ -22,3 +22,7 @@ Accordion Panel by vanilla JS : https://codepen.io/knour89/full/qQjJxN/
 Slider with Transition animation by pure JS: https://codepen.io/knour89/full/bQwQjv/
 <br>
 Smooth scrolling: https://codepen.io/knour89/full/Mzvaew/
+<br>
+JS To-Do App: https://codepen.io/knour89/full/JevEPv
+<br>
+JS Changing Text Every Second: https://codepen.io/knour89/full/MzdKgV
