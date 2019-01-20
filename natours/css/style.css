@@ -420,12 +420,14 @@ ul li {
     object-fit: cover; }
 
 .story {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.6);
   width: 75%;
   margin: 0 auto;
   padding: 6rem;
   padding-left: 9rem;
-  transform: skew(-7deg); }
+  transform: skew(-7deg);
+  border-radius: 3px;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15); }
   .story::after {
     content: "";
     display: table;
