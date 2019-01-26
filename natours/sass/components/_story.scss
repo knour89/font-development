@@ -19,7 +19,8 @@
         transform: skew(7deg) translateX(-3rem);
         position: relative;
         overflow: hidden;
-
+        display: block;
+        
         &-image{
             height: 100%;
             transform: translateX(-4rem) scale(1.4);
