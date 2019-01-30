@@ -309,6 +309,72 @@ ul li {
     border-top: 1px solid #777;
     padding-top: 2rem; }
 
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3500;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s ease-in-out; }
+  .lightbox:target {
+    visibility: visible;
+    opacity: 1; }
+  .lightbox__content {
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    display: table;
+    z-index: 3900;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all .6s ease .3s; }
+  .lightbox:target .lightbox__content {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
+  .lightbox__right {
+    width: 66.666667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem;
+    hyphens: auto; }
+  .lightbox__closebtn:link, .lightbox__closebtn:visited {
+    color: #777;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    line-height: 1; }
+  .lightbox__closebtn:hover, .lightbox__closebtn:active {
+    color: #55c57a; }
+  .lightbox__content-text {
+    column-rule: 1px solid #eee;
+    column-count: 2;
+    column-gap: 3rem;
+    font-size: 1.3rem; }
+  .lightbox__left {
+    width: 33.333333%;
+    display: table-cell;
+    vertical-align: middle; }
+  .lightbox__img {
+    width: 100%;
+    display: block; }
+
 .btn, .btn:link, .btn:visited {
   display: inline-block;
   font-size: 1.6rem;
@@ -497,7 +563,8 @@ ul li {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2.5rem;
   border-radius: 3px;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  transition: transform .3s ease; }
   .feature-box__icon {
     font-size: 6rem;
     display: inline-block;
@@ -505,6 +572,8 @@ ul li {
     background: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
     background-clip: text;
     -webkit-background-clip: text; }
+  .feature-box:hover, .feature-box:active {
+    transform: translateY(-2rem); }
 
 .card {
   position: relative;
