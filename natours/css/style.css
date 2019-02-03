@@ -587,7 +587,8 @@ ul li {
   width: 40%; }
   @media (max-width: 56.25em) {
     .form__radio-group {
-      display: block; }
+      display: block;
+      width: 70%; }
       .form__radio-group:not(:last-child) {
         margin-bottom: 2rem; } }
   .form__radio-group:not(:last-child) {
