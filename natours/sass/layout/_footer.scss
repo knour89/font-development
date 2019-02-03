@@ -1,0 +1,62 @@
+.footer{
+    background-color: $color-grey-dark-3;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+    @include responsive(tab-port){
+        padding: 6rem 0;
+    }
+
+    &__logo{
+        height: 15rem;
+        width: auto;
+    }
+
+ 
+    &__item{
+        display: inline-block;
+
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+    }
+
+    &__navigation{
+        border-top: 1px solid $color-dark-gray;
+        padding-top: 2rem;
+        display: inline-block;
+        @include responsive(tab-port){
+            width: 100% !important;
+            text-align: center;
+        }
+    }
+
+    &__link:link,
+    &__link:visited{
+        display: inline-block;
+        color: $color-gray-light-1;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .4s;
+    }
+
+    &__link:hover{
+        transform: scale(1.5) rotate(5deg);
+        color: $color-primary-dark;
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        background-color: $color-grey-dark-3;
+    }
+
+
+    &__copyright{
+        width: 80%;
+        float: right;
+        color: $color-white;
+        border-top: 1px solid $color-dark-gray;
+        padding-top: 2rem;
+
+        @include responsive(tab-port){
+            float: none;
+            width: 100%;
+        }
+    }
+}
