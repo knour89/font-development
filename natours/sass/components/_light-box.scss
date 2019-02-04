@@ -1,0 +1,110 @@
+.lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color-black, .8);
+    z-index: 3500;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out;
+
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &__content{
+        width: 75%;
+        @include responsive(tab-port){
+            width: 90%;
+        }
+        @include position-center(absolute);
+        background: $color-white;
+        border-radius: 3px;
+        box-shadow: 0 2rem 4rem rgba($color-black, .2);
+        display: table;
+        z-index: 3900;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all .6s ease .3s;
+    }
+
+    &:target &__content{
+        visibility: visible;
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    &__right{
+        width: 66.666667%;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 3rem;
+        hyphens: auto;
+       
+     }
+    
+     &__closebtn{
+        &:link,
+        &:visited{
+            color: $color-dark-gray;
+            position: absolute;
+            top: 2.5rem;
+            right: 2.5rem;
+            font-size: 3rem;
+            text-decoration: none;
+            display: inline-block;
+            -webkit-transition: all .2s;
+            transition: all .2s;
+            line-height: 1;
+            @include responsive(tab-port){
+                top: 1.5rem;
+                right: 1.5rem;
+            }
+            
+        }
+
+        &:hover,
+        &:active{
+            color: $color-primary;
+        }
+
+
+    }
+
+     &__content-text{
+        column-rule: 1px solid $color-gray-light-2;
+        column-count: 2;
+        column-gap: 3rem;
+        font-size: 1.3rem;
+        @include responsive(tab-port){
+            column-rule: none;
+            column-count: 1;
+            column-gap: 0;
+            font-size: 1.4rem;
+        }
+        
+     }
+
+    &__left{
+        width: 33.333333%;
+        display: table-cell;
+        vertical-align: middle;
+        @include responsive(tab-port){
+            display: none;
+        }
+    }
+
+    
+
+
+    &__img{
+        width: 100%;
+      display: block;
+    }
+
+}
