@@ -11,8 +11,8 @@ Awesome Link: https://knour89.github.io/front-development/awesome/index.html <br
 BBC Link: https://knour89.github.io/front-development/bbc-clone/   <br>
 
 
-Js Applications
-https://knour89.github.io/front-development/budget-js-app/
+Js Applications <br>
+Budget App (OOP + Functional Programming): https://knour89.github.io/front-development/budget-js-app/
 
 <br>
 Ux Development:
