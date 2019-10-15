@@ -5,10 +5,11 @@ Codes for HTML, CSS, JS, React, React Native..............etc.
 
 You are free to see my work and use my codes in your projects.
 
-Natours Link:  https://knour89.github.io/front-development/natours// <br>
-OmniFood Link:  https://knour89.github.io/front-development/omniFood/index.html  <br>
-Awesome Link: https://knour89.github.io/front-development/awesome/index.html <br>
-BBC Link: https://knour89.github.io/front-development/bbc-clone/   <br>
+Natours:  https://knour89.github.io/front-development/natours// <br>
+OmniFood:  https://knour89.github.io/front-development/omniFood/index.html  <br>
+Awesome: https://knour89.github.io/front-development/awesome/index.html <br>
+BBC: https://knour89.github.io/front-development/bbc-clone/   <br>
+trillo-flexbox layout: https://knour89.github.io/front-development/trillo-flexbox/index.html  <br>
 
 
 Js Applications <br>
