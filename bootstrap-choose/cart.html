@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Choose e-market</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <!-- main navigation -->
+        <div class="custom-nav-container d-flex align-items-center justify-content-between px-3 py-2 shadow-sm ">
+            <!-- logo -->
+            <a href="index.html" class="text-clipped navbar-brand">
+                <i class="fal fa-meteor d-flex "><span class="m-auto">Meteor</span></i>
+            </a>
+            <!-- menu -->
+            <div class="main-nav-outer d-flex ">
+                <i class="fal fa-times text-clipped menu-close-icon d-lg-none"></i>
+                <nav class="main-nav navbar navbar-light navbar-expand-lg text-center m-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">men</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">women</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">kids</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">new arrivals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">sale</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- right icons -->
+            <div class="nav-icons-container d-flex justify-content-between">
+                <div class="nav-icons">
+                    <a href="">
+                        <i class="fal fa-search  text-clipped"></i>
+                    </a>
+                </div>
+
+                <div class="nav-icons">
+                    <div class="dropdown">
+                        <a href="" class="dropdown-toggle " data-toggle="dropdown">
+                            <i class="fal fa-user  text-clipped"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <form action="" class="p-2 text-secondary">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Enter email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Enter password" required>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="" id="dropdown-checkbox">
+                                    <label class="form-check-label" for="dropdown-checkbox">Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-bg my-2">Login</button>
+                            </form>
+                            <div class="dropdown-divider mt-0"></div>
+                            <a href="#" class="dropdown-item">Don't have an account? Sign up </a> <a href="#"
+                                class="dropdown-item">Forget your password? Reset now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-icons">
+                    <a href="cart.html">
+                        <i class="fal fa-shopping-bag bag-item-count text-clipped"></i>
+                        <span class="badge">99</span>
+                    </a>
+                </div>
+                <div class="nav-icons d-lg-none">
+                    <i class="fal fa-bars open-menu-icon  text-clipped"></i>
+                </div>
+            </div>
+        </div>
+        <!-- end main navigation -->
+    </header>
+    <section class="my-cart p-0">            
+        <div class="heading-has-bg d-flex mb-4">
+                <div class="container text-left align-self-center">
+                    <h1 class="text-uppercase">cart</h1>
+                </div>
+            </div>
+     
+
+            <div class="container">
+                <div class="cart-item-container d-md-flex justify-content-between py-3 mb-5">
+                    <span class="remove-cart-item bg-danger d-flex">
+                        <i class="fal fa-times m-auto text-white"></i>
+                    </span>
+
+                    <div class="px-3 my-3 text-center text-md-left">
+                        <a href="#">
+                            <div class="cart-item-img mx-auto mx-md-0 mb-3">
+                                <img class="img-fluid" src="images/shoes/cart-shoe1.jpg" alt="">
+                            </div>
+
+                            <div class="cart-item-product-info">
+                                <h5 class="text-uppercase">nike air more uptempo 720</h5>
+                                <span><strong>Size:</strong> 9.5</span>
+                                <span><strong>Color:</strong> Black</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="px-3 my-3 text-center">
+                        <h5 class="cart-item-label text-uppercase text-secondary font-weight-bold">
+                            Quanitiy
+                        </h5>
+                        <div class="d-inline-block">
+                            <select name="" id="" class="form-control">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="px-3 my-3 text-center">
+                        <h5 class="cart-item-label text-uppercase text-secondary font-weight-bold">Price</h5>
+                        <span>$190</span>
+                    </div>
+
+                    <div class="px-3 my-3 text-center">
+                        <h5 class="cart-item-label text-uppercase text-secondary font-weight-bold">applied coupons</h5>
+                        <span>---</span>
+                    </div>
+                </div>
+            </div>
+        
+    
+                <div class="container">
+                    <div class="cart-item-container d-md-flex justify-content-between py-3 mb-5">
+                        <span class="remove-cart-item bg-danger d-flex">
+                            <i class="fal fa-times m-auto text-white"></i>
+                        </span>
+    
+                        <div class="px-3 my-3 text-center text-md-left">
+                            <a href="#">
+                                <div class="cart-item-img mx-auto mx-md-0 mb-3">
+                                    <img class="img-fluid" src="images/shoes/cart-shoe2.jpg" alt="">
+                                </div>
+    
+                                <div class="cart-item-product-info">
+                                    <h5 class="text-uppercase">nike air more uptempo 720</h5>
+                                    <span><strong>Size:</strong> 9.5</span>
+                                    <span><strong>Color:</strong> Black</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="px-3 my-3 text-center">
+                            <h5 class="cart-item-label text-uppercase text-secondary font-weight-bold">
+                                Quanitiy
+                            </h5>
+                            <div class="d-inline-block">
+                                <select name="" id="" class="form-control">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <div class="px-3 my-3 text-center">
+                            <h5 class="cart-item-label text-uppercase text-secondary font-weight-bold">Price</h5>
+                            <span>$190</span>
+                        </div>
+    
+                        <div class="px-3 my-3 text-center">
+                            <h5 class="cart-item-label text-uppercase text-secondary font-weight-bold">applied coupons</h5>
+                            <span>---</span>
+                        </div>
+                    </div>
+                </div>
+           
+    </section>
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <address>
+                        <strong class="h3 font-weight-normal text-capitalize">meteor goods</strong><br>
+                        <span class="text-capitalize">1234 Example street</span> <br>
+                        <span class="text-capitalize">antartica, Example 0987</span>
+                        <span class="text-capitalize">phone: (231) 344-2345</span>
+                    </address>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-title">
+                        <h5>get to know us</h5>
+                        <span class="custom-border"></span>
+                    </div>
+                    <ul class="footer-nav">
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Our Company</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Youth Foundation</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Careers</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Investor Relations</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-title">
+                        <h5>customer Care</h5>
+                        <span class="custom-border"></span>
+                    </div>
+                    <ul class="footer-nav">
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">FAQs</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Shipping Rates & Policies</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Return Policies</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Cancel an Order</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <div class="d-md-flex justify-content-between align-items-ceter text-center ">
+                        <div class="order-2 d-flex justify-content-center flex-wrap ">
+                            <a href="#" class="footer-link ml-3"> Privacy Policy</a>
+                            <a href="#" class="footer-link ml-3">Interest-Based Ads Policy</a>
+                            <a href="#" class="footer-link ml-3">Terms of Use</a>
+                            <a href="#" class="footer-link ml-3">Site Map</a>
+                        </div>
+                        <p class="order-1 m-0 footer-copy-right">&copy; 2019 Meteor Goods, Inc. All Rights Reserved.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

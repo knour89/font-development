@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Choose e-market</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <!-- main navigation -->
+        <div class="custom-nav-container d-flex align-items-center justify-content-between px-3 py-2 shadow-sm ">
+            <!-- logo -->
+            <a href="index.html" class="text-clipped navbar-brand">
+                <i class="fal fa-meteor d-flex "><span class="m-auto">Meteor</span></i>
+            </a>
+            <!-- menu -->
+            <div class="main-nav-outer d-flex ">
+                <i class="fal fa-times text-clipped menu-close-icon d-lg-none"></i>
+                <nav class="main-nav navbar navbar-light navbar-expand-lg text-center m-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">men</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">women</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">kids</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">new arrivals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">sale</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- right icons -->
+            <div class="nav-icons-container d-flex justify-content-between">
+                <div class="nav-icons">
+                    <a href="">
+                        <i class="fal fa-search  text-clipped"></i>
+                    </a>
+                </div>
+
+                <div class="nav-icons">
+                    <div class="dropdown">
+                        <a href="" class="dropdown-toggle " data-toggle="dropdown">
+                            <i class="fal fa-user  text-clipped"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <form action="" class="p-2 text-secondary">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Enter email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Enter password" required>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" name="" id="dropdown-checkbox">
+                                    <label class="form-check-label" for="dropdown-checkbox">Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-bg my-2">Login</button>
+                            </form>
+                            <div class="dropdown-divider mt-0"></div>
+                            <a href="#" class="dropdown-item">Don't have an account? Sign up </a> <a href="#"
+                                class="dropdown-item">Forget your password? Reset now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-icons">
+                    <a href="cart.html">
+                        <i class="fal fa-shopping-bag bag-item-count text-clipped"></i>
+                        <span class="badge">99</span>
+                    </a>
+                </div>
+                <div class="nav-icons d-lg-none">
+                    <i class="fal fa-bars open-menu-icon  text-clipped"></i>
+                </div>
+            </div>
+        </div>
+        <!-- end main navigation -->
+
+        <!-- start pormotion -->
+        <div class="pormotions text-center py-2 mb-4 text-white d-block">
+            <span>
+                <span class="text-uppercase font-weight-bold">Free shipping</span> on orders of $100 or more!
+            </span>
+        </div>
+        <!-- end pormotion -->
+
+        <!--start carousel -->
+        <div class="container">
+            <div class="carousel slide overflow-hidden" id="mainCarousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainCarousel" data-slide-to="1"></li>
+                    <li data-target="#mainCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#">
+                            <img class="img-fluid d-md-none" src="images/carousel/carousel-img-1-mobile.jpeg" alt="">
+                            <img class="img-fluid d-none d-md-block" src="images/carousel/carousel-img-1.jpeg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img class="img-fluid d-md-none" src="images/carousel/carousel-img-2-mobile.jpg" alt="">
+                            <img class="img-fluid d-none d-md-block" src="images/carousel/carousel-img-2.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img class="img-fluid d-md-none" src="images/carousel/carousel-img-3-mobile.jpeg" alt="">
+                            <img class="img-fluid d-none d-md-block" src="images/carousel/carousel-img-3.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+                    <i class="fal fa-chevron-left text-clipped"></i>
+                </a>
+                <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+                    <i class="fal fa-chevron-right text-clipped"></i>
+                </a>
+            </div>
+        </div>
+        <!--end carousel -->
+    </header>
+
+    <!-- start brands -->
+    <section class="featured-brands">
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col-12 col-sm-6 col-md-2 mb-5">
+                    <a href="#"><img src="images/brands/nike.svg" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-2 mb-5">
+                    <a href="#"><img src="images/brands/jordan.svg" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-2 mb-5">
+                    <a href="#"><img src="images/brands/adidas.svg" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-2 mb-5">
+                    <a href="#"><img src="images/brands/under-armour.svg" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-2 mb-5">
+                    <a href="#"><img src="images/brands/vans.svg" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-2 mb-5">
+                    <a href="#"><img src="images/brands/puma.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end brands -->
+
+    <!-- women section -->
+    <section class="women-collection pt-0">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h1 class="text-clipped text-uppercase">Women's collection</h1>
+                <p class="text-secondary text-capitalize">Shop the newest trends</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 mb-3 hero-img">
+                    <a href="#">
+                        <img src="images/hero/hero1.jpg" alt="">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#">
+                            <span class="d-block text-uppercase font-weight-bold">women's nike air max</span>
+                            <span class="text-capitalize text-secondary">shop now <i
+                                    class="fas fa-caret-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3 hero-img">
+                    <a href="#">
+                        <img src="images/hero/hero2.jpg" alt="">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#">
+                            <span class="d-block text-uppercase font-weight-bold">women's nike air max</span>
+                            <span class="text-capitalize text-secondary">shop now <i
+                                    class="fas fa-caret-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3 hero-img">
+                    <a href="#">
+                        <img src="images/hero/hero3.jpg" alt="">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#">
+                            <span class="d-block text-uppercase font-weight-bold">women's nike air max</span>
+                            <span class="text-capitalize text-secondary">shop now <i
+                                    class="fas fa-caret-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3 hero-img">
+                    <a href="#">
+                        <img src="images/hero/hero4.jpg" alt="">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#">
+                            <span class="d-block text-uppercase font-weight-bold">women's nike air max</span>
+                            <span class="text-capitalize text-secondary">shop now <i
+                                    class="fas fa-caret-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end women section -->
+
+    <!-- new arrivals -->
+    <section class="arrivals">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h1 class="text-clipped text-uppercase">the latest and greates shoes</h1>
+                <p class="text-secondary text-capitalize">shop the newest relases</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-12 col-sm-6 col-md-3 mb-3">
+                    <a href="#">
+                        <div class="new-arrivals-img mb-1">
+                            <img src="images/shoes/shoe1.jpg" alt="">
+                        </div>
+
+                        <span class="d-block text-capitalize font-weight-bold">nike air max</span>
+                        <span class="text-capitalize">show now <i class="fas fa-caret-right"></i></span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-3">
+                    <a href="#">
+                        <div class="new-arrivals-img mb-1">
+                            <img src="images/shoes/shoe2.jpg" alt="">
+                        </div>
+
+                        <span class="d-block text-capitalize font-weight-bold">nike air max</span>
+                        <span class="text-capitalize">show now <i class="fas fa-caret-right"></i></span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-3">
+                    <a href="#">
+                        <div class="new-arrivals-img mb-1">
+                            <img src="images/shoes/shoe3.jpg" alt="">
+                        </div>
+
+                        <span class="d-block text-capitalize font-weight-bold">nike air max</span>
+                        <span class="text-capitalize">show now <i class="fas fa-caret-right"></i></span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-3">
+                    <a href="#">
+                        <div class="new-arrivals-img mb-1">
+                            <img src="images/shoes/shoe4.jpg" alt="">
+                        </div>
+                        <span class="d-block text-capitalize font-weight-bold">nike air max</span>
+                        <span class="text-capitalize">show now <i class="fas fa-caret-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end new arrivals -->
+
+    <!-- services -->
+    <section class="services">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-sm-6 col-md-3 mb-5 mx-auto">
+                    <div class="our-services-icon d-flex mb-3 mx-auto">
+                        <i class="fal fa-shipping-fast text-clipped m-auto"></i>
+                    </div>
+                    <div class="our-services-desc">
+                        <h5 class="text-uppercase font-weight-bold">free worldide shipping</h5>
+                        <p class="text-secondary text-capitalize">free shipping for all orders over $100.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-5">
+                    <div class="our-services-icon d-flex mb-3 mx-auto">
+                        <i class="fal fa-sync text-clipped m-auto"></i>
+                    </div>
+                    <div class="our-services-desc">
+                        <h5 class="text-uppercase font-weight-bold">mony back guarantee</h5>
+                        <p class="text-secondary text-capitalize">we return mony wihtin 30 days of purchase.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-5">
+                    <div class="our-services-icon d-flex mb-3 mx-auto">
+                        <i class="fal fa-headset text-clipped m-auto"></i>
+                    </div>
+                    <div class="our-services-desc">
+                        <h5 class="text-uppercase font-weight-bold">24/7 customer support</h5>
+                        <p class="text-secondary text-capitalize">on demand 24/7 customer support.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-5">
+                    <div class="our-services-icon d-flex mb-3 mx-auto">
+                        <i class="fal fa-credit-card text-clipped m-auto"></i>
+                    </div>
+                    <div class="our-services-desc">
+                        <h5 class="text-uppercase font-weight-bold">secure online payments</h5>
+                        <p class="text-secondary text-capitalize">we use top of the line date encryption.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new services -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <address>
+                        <strong class="h3 font-weight-normal text-capitalize">meteor goods</strong><br>
+                        <span class="text-capitalize">1234 Example street</span> <br>
+                        <span class="text-capitalize">antartica, Example 0987</span>
+                        <span class="text-capitalize">phone: (231) 344-2345</span>
+                    </address>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-title">
+                        <h5>get to know us</h5>
+                        <span class="custom-border"></span>
+                    </div>
+                    <ul class="footer-nav">
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Our Company</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Youth Foundation</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Careers</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Investor Relations</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer-nav__link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-title">
+                        <h5>customer Care</h5>
+                        <span class="custom-border"></span>
+                    </div>
+                    <ul class="footer-nav">
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">FAQs</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Shipping Rates & Policies</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Return Policies</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Cancel an Order</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer-nav__link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-12"><hr></div>
+                    <div class="col-12">
+                            <div class="d-md-flex justify-content-between align-items-ceter text-center ">
+                                    <div class="order-2 d-flex justify-content-center flex-wrap ">
+                                        <a href="#" class="footer-link ml-3"> Privacy Policy</a>
+                                        <a href="#" class="footer-link ml-3">Interest-Based Ads Policy</a>
+                                        <a href="#" class="footer-link ml-3">Terms of Use</a>
+                                        <a href="#" class="footer-link ml-3">Site Map</a>
+                                    </div>
+                                    <p class="order-1 m-0 footer-copy-right">&copy; 2019 Meteor Goods, Inc. All Rights Reserved.</p>
+                                </div>
+                     </div>
+    
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
